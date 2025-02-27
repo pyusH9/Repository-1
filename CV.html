@@ -1,0 +1,155 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>My CV</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .container {
+            width: 30%;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 40px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        header h1 {
+            color: #2a9d8f;
+            font-size: 36px;
+            margin: 0;
+        }
+        header p {
+            font-size: 18px;
+            color: #555;
+        }
+        .photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 20px auto;
+        background-image: url('D:/Pyush Paudel 11I 943/HTML/oop.jpg');
+            background-size: cover;
+            background-position: center;
+            border: 5px solid #2a9d8f;
+        }
+        .section-title {
+            font-size: 24px;
+            color: #2a9d8f;
+            border-bottom: 2px solid #2a9d8f;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+        }
+        .contact-info {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .contact-info p {
+            font-size: 18px;
+            margin: 5px;
+        }
+        .skills ul, .experience ul, .education ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills li, .experience li, .education li {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .skills li::before, .experience li::before, .education li::before {
+            content: '✔️';
+            margin-right: 10px;
+            color: #2a9d8f;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 16px;
+            color: #777;
+        }
+        footer a {
+            color: #2a9d8f;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <div class="photo"></div>
+            <h1>Pyush Paudel</h1>
+            <p>Full Stack Developer | Web Enthusiast | Lifelong Learner</p>
+        </header>
+
+        <section class="contact-info">
+            <p>Email: pyushpdl@gmail.com</p>
+            <p>Phone: 9812345678</p>
+            <p>Website: www.pyushpdl.com</p>
+        </section>
+
+       
+        <section class="skills">
+            <div class="section-title">Skills</div>
+            <ul>
+                <li>HTML, Javascript</li>
+                <li>React, Node.js</li>
+                <li>Python</li>
+                <li>Version Control (GitHub)</li>
+                <li>Database Management (MongoDB)</li>
+            </ul>
+        </section>
+
+        <section class="experience">
+            <div class="section-title">Experience</div>
+            <ul>
+                <li>
+                    <strong>Part Time Web Developer</strong><br>
+                    <em>ABC Company | 2018 - Present</em><br>
+                    <p>Lead the development of scalable web applications using React and Node.js. Collaborated with design teams to implement responsive web interfaces.</p>
+                </li>
+                <li>
+                    <strong>Part Time Web Developer</strong><br>
+                    <em>XYZ Corp | 2018 - 2022</em><br>
+                    <p>Developed dynamic websites and applications, optimized for performance and scalability. Maintained web projects and provided ongoing support.</p>
+                </li>
+            </ul>
+        </section>
+
+       
+        <section class="education">
+            <div class="section-title">Education</div>
+            <ul>
+                <li>
+                    <strong>Bachelor of Science in Computer Science</strong><br>
+                    <em>University of AlphaBeta | 2026 - 2029</em>
+                </li>
+            </ul>
+        </section>
+
+  <section class="Future Plans">
+            <div class="section-title">Future Plans</div>
+            <ul>
+                <li>
+                    <strong>Masters in CS IT</strong><br>
+                    <em>University of Gamma</em>
+                </li>
+            </ul>
+        </section>
+       
+        <footer>
+            <p>Get in touch; faster and easier! <a href="contacts.pyush@gmail.com">Email me</a></p>
+        </footer>
+    </div>
+
+</body>
+</html>
